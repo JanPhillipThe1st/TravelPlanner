@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#EA713A"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingVertical="5dp"
+        android:text="SEE TRIP"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnViewUpcomingTravels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#EA713A"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingVertical="5dp"
+        android:text="UPCOMING TRAVELS"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvUpcomingTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#EA713A"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnViewCurrentTravels"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#EA713A"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingVertical="5dp"
+        android:text="CURRENT TRAVEL"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCurrentTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#EA713A"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnViewPreviousTravel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:backgroundTint="#EA713A"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingVertical="5dp"
+        android:text="PREVIOUS TRAVEL"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="0dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPreviousTravel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:backgroundTint="#EA713A"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center_horizontal|center_vertical"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="5dp"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|end"
+        android:orientation="vertical">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSetTravelPlan"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:backgroundTint="#EA713A"
+            android:gravity="center_horizontal|center_vertical"
+            android:textAlignment="center"
+            app:icon="@drawable/plane"
+            app:iconGravity="textStart"
+            app:iconSize="30dp" />
+    </LinearLayout>
+</LinearLayout>
